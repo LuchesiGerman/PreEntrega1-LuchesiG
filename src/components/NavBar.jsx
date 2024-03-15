@@ -1,4 +1,5 @@
-const NavBar= () => {
+import { Cartwidget } from "./Cartwidget";
+export const NavBar= () => {
     return (
         <>
         <h5>Geros</h5>
@@ -7,7 +8,7 @@ const NavBar= () => {
             <li><a href="#">Tablets</a></li>
             <li><a href="#">Celulares</a></li>
         </ul>
-    
+    <Cartwidget />
         </>
     )
 }
